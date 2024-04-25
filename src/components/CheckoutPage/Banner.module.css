@@ -1,0 +1,20 @@
+.banner {
+  width: 1100px;
+  height: 200px;
+  background-color: #e9ecef;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner p {
+  font-style: italic;
+}
+.banner span {
+  color: #adb5bd;
+}
+.banner p:nth-child(1) {
+  font-size: 32px;
+}

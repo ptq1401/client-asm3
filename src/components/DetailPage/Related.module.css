@@ -1,0 +1,17 @@
+.related h3 {
+  font-weight: 400;
+  font-style: italic;
+  margin: 25px 0 10px 0;
+}
+.related p {
+  font-style: italic;
+  color: #adb5bd;
+}
+.grid-related {
+  background-color: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-content: start;
+}

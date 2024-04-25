@@ -1,0 +1,30 @@
+.container {
+  width: 1100px;
+  margin: 20px auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  font-style: italic;
+  color: #868e96ca;
+}
+.title p {
+  margin: 5px;
+  font-size: 14px;
+}
+.title p:nth-child(2) {
+  color: #000;
+  font-size: 19px;
+}
+.categori-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-bottom: 30px;
+}
+.categori-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}

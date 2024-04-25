@@ -1,0 +1,10 @@
+.footer {
+  box-sizing: border-box;
+  background-color: #111111;
+  width: 98.5vw;
+  padding: 40px 15vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: start;
+  margin: 0 auto;
+}

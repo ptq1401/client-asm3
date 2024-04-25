@@ -1,0 +1,92 @@
+.container {
+  width: 1100px;
+  margin: 20px auto;
+}
+.heading {
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.title {
+  width: 730px;
+  display: grid;
+  grid-template-columns: 120px 150px 100px 120px 110px 100px;
+  column-gap: 6px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  background-color: #dee2e6;
+  margin-top: 10px;
+}
+.cart {
+  display: flex;
+  gap: 40px;
+}
+.total {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 30px 30px;
+  width: 330px;
+  background-color: #dee2e6;
+  align-self: start;
+}
+.total div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.total input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.total button {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+.subtotal {
+  border-bottom: 1px solid #000;
+  font-style: italic;
+  font-weight: 400;
+}
+.subtotal p:nth-child(2) {
+  color: #868e96;
+}
+.div_total {
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.div_total p:nth-child(2) {
+  font-size: 18px;
+}
+.div_total p {
+  padding: 0;
+  margin: 0;
+}
+.cart .nav {
+  background-color: #dee2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cart .nav .link {
+  color: #343a40;
+  text-decoration: none;
+  font-style: italic;
+}
+.cart .nav .link:hover {
+  color: #fd8d14;
+}

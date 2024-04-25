@@ -1,0 +1,21 @@
+.none-active {
+  font-style: italic;
+  font-size: 16px;
+  text-align: start;
+  background-color: #fff;
+  color: #ced4da;
+  width: 100%;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.active {
+  color: #fd8d14;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 16px;
+  text-align: start;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+}

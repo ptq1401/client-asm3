@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.container {
+  width: auto;
+  display: grid;
+  grid-template-columns: 480px 400px;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+.container img {
+  width: 480px;
+}
+.description p {
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+}
+.description p:nth-child(n + 2) {
+  color: #868e96ca;
+  font-size: 15px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.description button {
+  width: 10vw;
+  height: 40px;
+  background-color: #212529;
+  color: #e9ecef;
+  border: none;
+}
+.description button:hover {
+  color: #212529;
+  background-color: #e9ecef;
+  border: 1px solid #000;
+}
+.close {
+  font-size: 20px;
+  background-color: #fff;
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.close:hover,
+.close:active {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  transform: scale(1.2);
+}

@@ -1,0 +1,6 @@
+.image {
+  width: 100%;
+}
+.button:hover {
+  opacity: 0.5;
+}

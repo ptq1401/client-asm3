@@ -1,0 +1,93 @@
+.container {
+  background-image: url("../HomePage/image/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1300px;
+  height: 90vh;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  box-sizing: border-box;
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(183, 183, 183);
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.form h2 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #adb5bd;
+  margin-bottom: 30px;
+}
+.form h4 {
+  font-style: italic;
+  color: #f03e3e;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.form input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #dee2e6;
+  font-size: 16px;
+  padding: 10px;
+  color: #495057;
+}
+.form button {
+  width: 100%;
+  height: 60px;
+  background-color: #495057;
+  border: none;
+  color: #dee2e6;
+  margin-top: 20px;
+}
+.form button:hover,
+.form button:active {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #495057;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form p {
+  font-style: italic;
+  color: #adb5bd;
+}
+.form .link {
+  text-decoration: none;
+  color: #228be6;
+}
+.form .link:hover {
+  text-decoration: underline;
+}
+.button-logout {
+  font-size: 32px;
+  width: 500px;
+  height: 60px;
+  background-color: #495057;
+  border: none;
+  color: #dee2e6;
+  display: block;
+  margin: 50px auto;
+}
+.button-logout:hover,
+.button-logout:active {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}

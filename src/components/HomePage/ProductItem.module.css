@@ -1,0 +1,22 @@
+.product {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+}
+.product:hover,
+.product:active {
+  border: 1px solid #000;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.image {
+  width: 250px;
+  height: 250px;
+}
+.product p {
+  font-style: italic;
+  font-size: 15px;
+}
+.product p:nth-child(3) {
+  color: #868e96ca;
+}

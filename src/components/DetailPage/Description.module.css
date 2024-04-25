@@ -1,0 +1,19 @@
+.description {
+  margin-top: 80px;
+}
+.description span {
+  background-color: #212529;
+  color: #fff;
+  padding: 10px 20px;
+}
+.description h3 {
+  font-weight: 400;
+  font-style: italic;
+  margin: 25px 0 10px 0;
+}
+.description p {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #adb5bd;
+}

@@ -1,0 +1,90 @@
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.container h3 {
+  color: red;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.heading {
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.div_flex {
+  display: flex;
+  gap: 60px;
+}
+.div_flex form {
+  width: 650px;
+}
+.div_flex form input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid #ced4da;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: #ced4da;
+}
+.div_flex form label {
+  color: #495057;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+.div_flex form button {
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+}
+.div_flex form button:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.order h2 {
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+.order {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 20px 30px;
+  width: 390px;
+  background-color: #dee2e6;
+  align-self: start;
+}
+.order div p {
+  max-width: 160px;
+  font-size: 15px;
+  font-style: italic;
+}
+.order div p:nth-child(1) {
+  font-weight: 500;
+}
+.order div p:nth-child(2) {
+  color: #495057;
+}
+.order div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #495057;
+}
+.order .total {
+  border: none;
+}
+.order .total p {
+  font-size: 17px;
+}

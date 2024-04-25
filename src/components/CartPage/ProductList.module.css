@@ -1,0 +1,36 @@
+.product {
+  width: 730px;
+  display: grid;
+  grid-template-columns: 120px 150px 100px 120px 110px 100px;
+  column-gap: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+.product img {
+  width: 100px;
+}
+.name {
+  font-size: 17px;
+  font-style: italic;
+}
+.price {
+  color: #adb5bd;
+  font-style: italic;
+}
+.product button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+.product button:hover,
+.product button:active {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+.quantity {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

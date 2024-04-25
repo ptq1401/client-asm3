@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 18% 82%;
+}
+.imagegroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container img {
+  width: 100%;
+}
